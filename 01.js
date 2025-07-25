@@ -1,4 +1,4 @@
-const apiKey = "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"; // 🔒 Insert your OpenRouter API key here
+const apiKey = "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"; // 🔒 Insert your OpenRouter API key here
 
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
