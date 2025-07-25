@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DeepSeek AI Chat</title>
+  <link rel="stylesheet" href="01.css">
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div class="chat-header">
+      AI ChatBot
+      <button id="clearChatBtn" title="Clear Chat" onclick="clearChat()" style="float:right; padding:5px 10px; font-size:14px; cursor:pointer; border:none; background:#6a9efc; color:white; border-radius:5px;">Clear Chat</button>
+    </div>
+    <div class="chat-box" id="chatBox"></div>
+    <div class="chat-input-area">
+      <textarea id="userInput" placeholder="Type your message..." rows="1"></textarea>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="01.js"></script>
+</body>
+</html>
